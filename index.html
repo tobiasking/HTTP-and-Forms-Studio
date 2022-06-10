@@ -11,10 +11,10 @@
 				ask: "https://www.ask.com/web"
 		};
 
-			let form = document.getElementById('searchForm');
+			
 			let selectedEngine = document.querySelector("[name=engine]:checked");
 			let action = actions[selectedEngine.value];
-			let searchTerm = document.querySelector('[name=q]').value;
+			
 
 			
 			form.setAttribute("action", action);
